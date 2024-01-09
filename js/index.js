@@ -22,7 +22,7 @@ function showMoreItems(e) {
 	wrapper.style.height = 'fit-content'
 
 	btnText.textContent = 'Скрыть'
-	btnIcon.style.backgroundImage = "url('./../assets/images/icons/arrow-up.svg')"
+	btnIcon.style.backgroundImage = "url('./assets/images/icons/arrow-up.svg')"
 }
 
 function hideItems(e) {
@@ -40,8 +40,7 @@ function hideItems(e) {
 	wrapper.style.height = `${defaultHeight}px`
 
 	btnText.textContent = btnText.dataset.defaultText
-	btnIcon.style.backgroundImage =
-		"url('./../assets/images/icons/arrow-down.svg')"
+	btnIcon.style.backgroundImage = "url('./assets/images/icons/arrow-down.svg')"
 }
 
 loadBtns.forEach(btn => {
